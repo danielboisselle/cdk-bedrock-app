@@ -15,6 +15,7 @@
     "clean": "find . -type f -name '*.js' -not -path '**/node_modules/*' -delete && find . -type f -name '*.d.ts' -not -path '**/node_modules/*' -delete"
   },
   "devDependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.682.0",
     "@types/jest": "^29.5.12",
     "@types/node": "20.11.19",
     "aws-cdk": "2.132.1",
